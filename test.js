@@ -1,21 +1,8 @@
-var average = 0;
+var a = 7;
+var b = 5;
 
-function getAverage (a,b){
+console.log(a + b);
 
-    var average = (a + b ) / 2; //local variable
-    console.log(adverage);
-    return average;
+console.log(Math.max(7, 4, 9, 8));
 
-}
-
-
-var myResult = getAverage(7,11); //global variable
-console.log("the average is" + myResult);
-
-function logResult(){
-
-console.log("the average is" + myResult) + "inside the function";
-
-}
-
-logResult();
+/*console.log(Math.PI);*/
