@@ -1,4 +1,4 @@
-var myAge = 22
+var myAge = 12
 
 if (myAge > 30){
 
