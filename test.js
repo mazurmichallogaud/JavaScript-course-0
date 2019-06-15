@@ -1,21 +1,21 @@
+var colourChanger = document.getElementById("colour-changer");
+var colours = ["red", "blue", "green", "pink"];
+var counter = 0;
 
+function changeColour (){
 
-window.onload = function(){
-
-    var content = document.getElementById("content");
-    var button = document.getElementById("swoe-more");
-    
-    button.onclick = function(){
-    
-        if(content.className == "open")
-            //shrink the box
-            content.className = "";
-            button/innetHTMS = "Show More";
-    } else{
-        //expand the box
-        content.className = "open";
-        button.innterHTML = "Show Less";    
+    if (counter >= colours.length){
+        counter = 0;
     }
-};
 
+    colourChanger.style.background = colours[counter];
+    counter++;
+}
+
+var myTimer = setInterval(chaneColour, 3000);
+
+colourChanger.onlick = function(){
+
+    clearInterval(myTimer);
+    colourChanger.innerHTML = "Timer stopped";
 };
