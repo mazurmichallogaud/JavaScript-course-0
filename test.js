@@ -1,13 +1,15 @@
-var a = "orange";
-var b = 5;
+/*var myString = 'I am a "fun" string';
 
 
-//double negative
-if (isNaN(a)){
+//console.log(myString.indexOf("mozg"));//
+if (myString.indexOf("mozg") === -1){
 
-    console.log("meaning of life is" + (a * b));
-       
-} else{
+    console.log)"the word mozg starts at position" +
+myString.indexOf("mozg"));
 
-    console.log("that int even a number, thickie");
-} 
+}*/
+
+var string1 = "abd";
+var string2 = "bcd";
+
+console.log(string1 < string2);
