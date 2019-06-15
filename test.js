@@ -1,8 +1,13 @@
-var a = 7;
+var a = "orange";
 var b = 5;
 
-console.log(a + b);
 
-console.log(Math.max(7, 4, 9, 8));
+//double negative
+if (isNaN(a)){
 
-/*console.log(Math.PI);*/
+    console.log("meaning of life is" + (a * b));
+       
+} else{
+
+    console.log("that int even a number, thickie");
+} 
