@@ -1,40 +1,10 @@
-var x = 5
-x > 4 
-//true
-x >= 5
-//true
-x > 5
-//false
-x >= 4 
-//true
-x < 5
-//false
-x <= 5
-//true
-x == 4
-//false
-x == 5
-//true
-x === 5
-//true
-x = "5"
-//"5"
-x == 5
-//true
-x === 5
-//false
-x === "5"
-//true
-x = 5
-//5
-x != 4
-//true
-x != 5
-//false
-x !== 5
-//false
-x = "5"
-//"5"
-x !== 5
-//true
+var myAge = 22;
+
+if (myAge >= 18 && myAge <= 30){
+    
+    document.write("You can cone, you coll dude")
+} else{
+
+    document.write("you aint coming!")
+}
 
